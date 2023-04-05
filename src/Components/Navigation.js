@@ -1,10 +1,10 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import '../css/mynavbar.css';
+import '../css/navigation.css';
 
 
-export default function NavComponent() {
+export default function Navigation() {
   return (
-    <Navbar bg="light" expand="lg" collapseOnSelect>
+    <Navbar className='nav-bar' expand="lg" collapseOnSelect>
     <Container fluid>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

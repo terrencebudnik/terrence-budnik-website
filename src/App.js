@@ -1,14 +1,16 @@
 import React from "react";
-import NavComponent from "./Components/NavComponent";
+import Navigation from "./Components/Navigation";
 import Header from "./Components/Header";
+import About from "./Components/About";
 
 
 
 export default function App() {
   return (
     <div> 
-      <NavComponent />
-
+      <Navigation />
+      <Header />
+      <About />
     </div>
     
     
