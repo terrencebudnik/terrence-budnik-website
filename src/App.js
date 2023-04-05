@@ -1,9 +1,18 @@
-function App() {
+import React from "react";
+import NavComponent from "./Components/NavComponent";
+import Header from "./Components/Header";
+
+
+
+export default function App() {
   return (
-    <div>
-      <h1>React App</h1>
+    <div> 
+      <NavComponent />
+
     </div>
+    
+    
   );
 }
 
-export default App;
+
