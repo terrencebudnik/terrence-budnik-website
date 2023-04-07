@@ -16,19 +16,22 @@ const Navbar = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <ReactNavbar color="light" light expand="lg">
-      <NavbarBrand href="/" className="ml-lg-3">YourName</NavbarBrand>
+    <ReactNavbar color="secondary" light expand="lg">
+      <NavbarBrand href="/" className="ml-lg-3 initial-logo">TB</NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto center-on-small" navbar>
           <NavItem>
-            <NavLink href="#about">About</NavLink>
+            <NavLink href="#about" className="nav-section">About</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#portfolio">Portfolio</NavLink>
+            <NavLink href="#portfolio" className="nav-section" >Portfolio</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#contact">Contact</NavLink>
+            <NavLink href="#resume" className="nav-section" >Resume</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#contact" className="nav-section">Contact</NavLink>
           </NavItem>
         </Nav>
       </Collapse>
