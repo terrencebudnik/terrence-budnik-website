@@ -1,20 +1,25 @@
-import React from "react";
-import Navigation from "./Components/Navigation";
-import Header from "./Components/Header";
-import About from "./Components/About";
+import React from 'react';
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import About from "./components/About";
 
 
 
 export default function App() {
+  
   return (
-    <div> 
-      <Navigation />
-      <Header />
-      <About />
+    
+ 
+    <div className="App">
+      <Navbar />
+      {/* <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
+      </Switch> */}
     </div>
-    
-    
-  );
+  
+);
 }
-
 

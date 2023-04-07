@@ -1,0 +1,11 @@
+@media (max-width: 991.98px) {
+  .center-on-small {
+    text-align: center;
+  }
+
+  .center-on-small .nav-item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
