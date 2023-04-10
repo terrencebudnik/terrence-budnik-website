@@ -21,7 +21,7 @@ const Footer = () => {
             </a> &bull;
             <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
-            </a> &bull;
+            </a>
           </Col>
         </Row>
       </Container>

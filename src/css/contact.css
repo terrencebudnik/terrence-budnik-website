@@ -1,0 +1,15 @@
+.contact-custom {
+    margin-bottom: 50px;
+}
+
+.submit-btn {
+    text-align: center;
+    background-color: #4a4cdd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}

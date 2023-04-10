@@ -1,3 +1,8 @@
+.nav-custom {
+  background-image: linear-gradient(to right, rgb(73, 76, 221), rgb(129, 190, 209), rgb(73, 76, 221));
+}
+
+
 .initial-logo {
   font-family: 'Orbitron', sans-serif;
   font-size: 60px;

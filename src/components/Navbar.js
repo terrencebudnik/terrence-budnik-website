@@ -16,7 +16,7 @@ const Navbar = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <ReactNavbar color="secondary" light expand="lg">
+    <ReactNavbar className="nav-custom" light expand="lg">
       <NavbarBrand href="/" className="ml-lg-3 initial-logo">TB</NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
