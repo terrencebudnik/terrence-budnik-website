@@ -39,7 +39,7 @@ const Resume = () => {
                     </Row>
                     <Row>
                         <Col>
-                            <h2>Technical Skills</h2>
+                            <h2 className="bg-light border text-center">Technical Skills</h2>
                         </Col>
                     </Row>
                     <Row>
@@ -52,7 +52,7 @@ const Resume = () => {
                     </Row>
                     <Row>
                         <Col>
-                            <h2>Work Experience</h2>
+                            <h2 className="bg-light border text-center">Work Experience</h2>
                         </Col>
                     </Row>
                     <Row>
@@ -154,7 +154,7 @@ const Resume = () => {
                     </Row>
                     <Row>
                         <Col>
-                        <h2>Additional Work Experience</h2>
+                        <h2 className="bg-light border text-center">Additional Work Experience</h2>
                         </Col>
                     </Row>
                     <Row>
@@ -170,7 +170,9 @@ const Resume = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col>Education</Col>
+                        <Col>
+                        <h2 className="bg-light border text-center">Education</h2>
+                        </Col>
                     </Row>
                     <Row>
                         <Col>Northwestern University - Certificate</Col>
@@ -185,7 +187,7 @@ const Resume = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col>Cornell Universirt - Certificate</Col>
+                        <Col>Cornell University - Certificate</Col>
                         <Col>Online</Col>
                         <Col>Completed-May 2019</Col>
                     </Row>
