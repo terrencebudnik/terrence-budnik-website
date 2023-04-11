@@ -7,11 +7,14 @@ const Resume = () => {
     return (
         <Container
             fluid
-            className="resume-container">
+            className="resume-container"
+            id="resume">
+            <h2 className="resume-title">Resume</h2>
             <Card
                 color="dark"
                 outline
             >
+
                 <CardTitle
                     className="bg-light border text-center" tag="h1">
                     Terrence Budnik
@@ -141,11 +144,11 @@ const Resume = () => {
                                 <li>Operated branch’s social media presence (Twitter/Facebook)</li>
                                 <li>Adhered and completed targeted company metrics and requirements </li>
                                 <li>Interviewed applicants and implemented onboarding process
-</li>
+                                </li>
                                 <li>Negotiated contracts with new customers</li>
                                 <ul>
                                     <li>Increased margin by 10-15% </li>
-                                    
+
                                 </ul>
 
 
@@ -154,24 +157,24 @@ const Resume = () => {
                     </Row>
                     <Row>
                         <Col>
-                        <h2 className="bg-light border text-center">Additional Work Experience</h2>
+                            <h2 className="bg-light border text-center">Additional Work Experience</h2>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                        <ul>
-                            <li>Homestate Construction, LLC - Project Manager
-</li>
-                            <li>Homestate Insurance, LLC - Insurance Adjuster</li>
-                            <li>Mendocino Farms - Restaurant Manager</li>
-                            <li>Cicero Development - Construction Laborer</li>
-                            <li>Actor- Theatre, Film, Improv</li>
-                        </ul>
+                            <ul>
+                                <li>Homestate Construction, LLC - Project Manager
+                                </li>
+                                <li>Homestate Insurance, LLC - Insurance Adjuster</li>
+                                <li>Mendocino Farms - Restaurant Manager</li>
+                                <li>Cicero Development - Construction Laborer</li>
+                                <li>Actor- Theatre, Film, Improv</li>
+                            </ul>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                        <h2 className="bg-light border text-center">Education</h2>
+                            <h2 className="bg-light border text-center">Education</h2>
                         </Col>
                     </Row>
                     <Row>
@@ -181,9 +184,9 @@ const Resume = () => {
                     </Row>
                     <Row>
                         <Col>
-                        <ul>
-                            <li>Full Stack Web Development</li>
-                        </ul>
+                            <ul>
+                                <li>Full Stack Web Development</li>
+                            </ul>
                         </Col>
                     </Row>
                     <Row>
@@ -193,9 +196,9 @@ const Resume = () => {
                     </Row>
                     <Row>
                         <Col>
-                        <ul>
-                            <li>Project Management</li>
-                        </ul>
+                            <ul>
+                                <li>Project Management</li>
+                            </ul>
                         </Col>
                     </Row>
                     <Row>
@@ -205,12 +208,12 @@ const Resume = () => {
                     </Row>
                     <Row>
                         <Col>
-                        <ul>
-                            <li>Theater/Performing Arts</li>
-                        </ul>
+                            <ul>
+                                <li>Theater/Performing Arts</li>
+                            </ul>
                         </Col>
                     </Row>
-                    
+
                 </CardBody>
             </Card>
         </Container>

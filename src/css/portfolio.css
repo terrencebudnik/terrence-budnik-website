@@ -1,25 +1,19 @@
-.about-custom {
+.portfolio-custom {
+    background-color:rgb(173 176 207);
     padding: 50px 200px;
-    background-image: linear-gradient(to right, rgb(73, 76, 221), rgb(129, 190, 209), rgb(73, 76, 221));
 }
-.about-title {
+
+.portfolio-title {
     font-family: Impact, fantasy;
     font-weight: bold;
+    text-align: center;
     text-transform: uppercase;
     font-size: 50px;
     margin-bottom: 20px;
     border-bottom: thick solid #000000;
 }
 
-img {
-    width: 100px;
-    height: 100%;
-    align-items: center;
-}
-
-.about-info {
+.projects {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 20px;
-
 }

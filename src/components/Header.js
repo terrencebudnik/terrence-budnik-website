@@ -6,7 +6,7 @@ import "../css/header.css";
 const Header = () => {
   return (
     <Container
-      className="border text-center"
+      className="text-center header-custom"
       outline
       fluid
     >

@@ -46,10 +46,12 @@ function Contact() {
       
 
     return (
-        <Container className="contact-custom">
+        <Container 
+        className="contact-custom"
+        id="contact">
             <Row>
                 <Col md={6} className="mx-auto">
-                    <h2>Contact Me</h2>
+                    <h2 className="contact-title">Contact Me</h2>
                     <Form onSubmit={handleSubmit}>
                         <FormGroup>
                             <Label for="name">Your Name</Label>
@@ -87,9 +89,13 @@ function Contact() {
                                 required
                             />
                         </FormGroup>
-                        <Button className="submit-btn" type="submit">Send Message</Button>
                     </Form>
                 </Col>
+            </Row>
+            <Row className="text-center">
+            <Col md={6} className="mx-auto">
+                        <Button className="submit-btn" type="submit">Send Message</Button>
+</Col>
             </Row>
         </Container>
     );
